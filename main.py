@@ -56,7 +56,7 @@ def main():
 
     maxFitness = -1
     bestRepres = []
-    filename = "date2_out.txt"
+    filename = "hardE_out.txt"
     f = open(filename, "w")
 
     for gen in range(gaParams['nrGen']):
